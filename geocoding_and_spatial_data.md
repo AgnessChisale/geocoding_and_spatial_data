@@ -38,7 +38,7 @@ This project focuses on converting non-spatial data into geospatial datasets usi
 ## Methods
 Street tree data was downloaded for the neighbourhood with the highest tree count and an Address field was created by concatenating civic number and street name. A custom address locator was built from the GVRD road network and used to geocode the neighbourhood tree addresses. Match scores were reviewed to assess geocoding quality. Park tree data was loaded from the PostgreSQL server as a table with UTM coordinates and converted to a spatial point layer. A spatial join linked park trees to park polygons, and tree density (trees per hectare) was calculated for all parks over 1 ha in size.
 
-📄 *For a detailed breakdown of the methodology, [click here](methodology.md)*
+📄 *For a detailed breakdown of the methodology, [click here](https://github.com/AgnessChisale/geocoding_and_spatial_data/blob/main/methodology_project5.md)*
 
 ---
 
