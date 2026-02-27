@@ -1,0 +1,5 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - geocoding_and_spatial_data.md
